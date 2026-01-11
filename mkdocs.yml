@@ -1,0 +1,129 @@
+site_name: Ravian
+site_description: Official user guide for Ravian AI – a fully autonomous AI agent
+site_url: https://docs.ravian.ai
+
+repo_name: ravian-ai/docs
+repo_url: https://github.com/ravian-ai/docs
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  logo: assets/logo.png
+  favicon: assets/logo.png
+
+  font:
+    text: Inter
+    code: JetBrains Mono
+
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+
+  palette:
+    # Light mode
+    - scheme: default
+      primary: indigo
+      accent: purple
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+    # Dark mode
+    - scheme: slate
+      primary: black
+      accent: lime
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - toc:
+      permalink: true
+  - md_in_html
+
+  # REQUIRED for Material icons & social footer
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+    
+
+nav:
+  - Introduction:
+      - Welcome: index.md
+
+  - Getting Started:
+      - Quick Start: getting-started/quick-start.md
+      - Installation: getting-started/installation.md
+      - First Task: getting-started/first-task.md
+
+  - Chat Mode:
+      - Overview: modes/chat-mode.md
+      - Research in Chat Mode: modes/chat-capabilities/research.md
+      - Productivity & Email: modes/chat-capabilities/productivity.md
+      - Web Automation in Chat: modes/chat-capabilities/web-automation.md
+
+  - Task Mode:
+      - Overview: modes/task-mode.md
+      - Autonomous Research: modes/task-capabilities/research.md
+      - Data Analysis & Visualization: modes/task-capabilities/data.md
+      - Presentation Generation: modes/task-capabilities/presentations.md
+      - Web Automation & Browsing: modes/task-capabilities/web-automation.md
+      - App & Workflow Integration: modes/task-capabilities/integrations.md
+      - Multimedia Processing: modes/task-capabilities/multimodal.md
+
+  - Use Cases:
+      - Market Research Automation: use-cases/market-research.md
+      - Data Science Automation: use-cases/data-science.md
+      - Job Search Automation: use-cases/job-search.md
+      - Website Cloning: use-cases/website-cloning.md
+      - Guided Workflows:
+          - How to Browse and Create a Report: use-cases/complex/browse-and-report.md
+          - How to Perform Deep Research: use-cases/complex/deep-research.md
+          - How to Build an Application: use-cases/complex/build-application.md
+          - How to Do Data Analysis: use-cases/complex/data-analysis.md
+          - How to Build an ML Model: use-cases/complex/ml-model.md
+          - Build a PDF Report and Email It: use-cases/complex/pdf-report-email.md
+          - Convert PDF into CSV Files: use-cases/complex/pdf-to-csv.md
+
+  - Integrations:
+      - Connected Apps: integrations/connected-apps.md
+
+  - Safety & Control:
+      - Human Approvals: safety/approvals.md
+      - Validation & QA System: safety/qa.md
+
+  - FAQ:
+      - Common Questions: faq/common.md
+
+
+
+extra:
+  social:
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@RavianAI
+      name: Ravian AI on YouTube
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/ravian-ai
+      name: Ravian AI on LinkedIn
+
+
+copyright: Copyright © 2026 Ravian Artificial Intelligence Private Limited.
