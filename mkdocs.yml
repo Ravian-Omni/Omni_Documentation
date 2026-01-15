@@ -71,15 +71,15 @@ nav:
       - Welcome: index.md
 
   - Getting Started:
-      - Quick Start: getting-started/quick-start.md
-      - Installation: getting-started/installation.md
-      - First Task: getting-started/first-task.md
+      - Installation & Setup: getting-started/installation.md
+      - Your First Workflow: getting-started/first-workflow.md
 
   - Chat Mode:
       - Overview: modes/chat-mode.md
       - Research in Chat Mode: modes/chat-capabilities/research.md
       - Productivity & Email: modes/chat-capabilities/productivity.md
       - Web Automation in Chat: modes/chat-capabilities/web-automation.md
+      - Connected Apps: modes/chat-capabilities/integrations.md
 
   - Task Mode:
       - Overview: modes/task-mode.md

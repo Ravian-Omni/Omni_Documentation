@@ -1,56 +1,96 @@
-# Installation
+# Installation & Setup
 
-This page explains how to install Ravian AI on Windows and macOS and verify that everything is working.
+This guide walks you through **requirements, installation, and first launch** of Ravian AI on your device.
 
-Ravian is a **device‑native** application, so installation happens on your local machine rather than in the browser.
+Ravian is a **device‑native** application, so everything runs locally while it connects to your apps, files, and the web.
 
 ---
 
 ## System requirements
 
-- Operating system: **Windows** or **macOS** with a modern 64‑bit processor.
-- Stable internet connection for web‑based automations and updates.
-- Sufficient disk space for logs, cached data, and generated outputs.
-- Permission to install and run desktop applications.
+Before installing Ravian, make sure your environment meets these requirements.
+
+- Operating system: **Windows** or **macOS** with a modern 64‑bit processor  
+- Memory: At least **8 GB RAM** (16 GB recommended for long or heavy workflows)  
+- Storage: Sufficient free disk space for logs, cached data, and generated outputs  
+- Network: Stable internet connection for web‑based automations and updates  
+- Permissions: Ability to install desktop apps and grant automation / accessibility permissions
 
 !!! note
     Ravian runs alongside your existing tools and does not require moving your workflows to the cloud.
 
 ---
 
-## Install on Windows
+## Download Ravian AI
 
-1. Go to [https://www.ravian.ai](https://www.ravian.ai) and click **Download for Windows**.
-2. Save the installer file to your computer.
-3. Double‑click the installer and follow the setup prompts.
-4. When installation finishes, launch **Ravian AI** from the Start menu or desktop shortcut.
-5. Sign in or complete the first‑run setup if prompted.
+You can download Ravian directly from the official website:
+
+[https://www.ravian.ai](https://www.ravian.ai)
+
+Ravian provides installers for **Windows** and **macOS**. Choose the version that matches your platform.
+
+Below is an example of the download flow:
+
+![Downloading Ravian AI](../assets/installation/ravian-download.gif){ alt="Screen recording showing the Ravian AI website and clicking the Download buttons for Windows and macOS" }
 
 !!! tip
-    Keep Ravian pinned to your taskbar so you can quickly delegate new tasks while you work in other applications.
+    Always download from the official site or your enterprise distribution channel to ensure you get a trusted build.
 
 ---
 
-## Install on macOS
+## Installation for individual users
 
-1. Go to [https://www.ravian.ai](https://www.ravian.ai) and click **Download for macOS**.
-2. Open the downloaded `.dmg` or package file.
+### Windows
+
+1. Visit [https://www.ravian.ai](https://www.ravian.ai) and click **Download for Windows**.
+2. Save the installer (`.exe` or `.msi`) to your machine.
+3. Double‑click the installer and follow the on‑screen steps.
+4. After installation, open **Ravian AI** from the Start menu or desktop shortcut.
+5. Complete any first‑run setup prompts (sign‑in, basic preferences).
+
+!!! tip
+    Pin Ravian to your taskbar so you can quickly delegate new tasks while you work in other applications.
+
+### macOS
+
+1. Visit [https://www.ravian.ai](https://www.ravian.ai) and click **Download for macOS**.
+2. Open the downloaded `.dmg` or installer package.
 3. Drag **Ravian AI** into your **Applications** folder if required.
-4. Open Ravian from **Launchpad** or **Applications**.
-5. If macOS shows a security prompt, choose **Open** to trust the app from a verified publisher.
+4. Launch Ravian from **Launchpad** or **Applications**.
+5. If macOS shows a security prompt, choose **Open** to trust the app from an identified developer.
 
 !!! warning
-    If your organization manages devices centrally, check with your IT team before bypassing security dialogs.
+    If your organization manages devices centrally, check with IT before bypassing security dialogs or changing system settings.
+
+---
+
+## Enterprise installation options
+
+For teams and organizations, Ravian can also be deployed via **enterprise channels** (for example, MDM, internal software portals, or custom builds).
+
+Typical enterprise options include:
+
+- Pre‑configured installers with organization defaults (folders, integrations, logging).  
+- Centralized rollout using MDM tools (Intune, Jamf, etc.).  
+- Managed update channels and locked‑down settings.
+
+If you are an enterprise user:
+
+- Follow your internal IT documentation for installing Ravian, **or**  
+- Contact your administrator or Ravian support at `hello@ravian.ai` for the enterprise installer and configuration steps.
+
+!!! note
+    Enterprise deployments can enforce company policies while keeping all processing on user devices.
 
 ---
 
 ## First‑run setup
 
-On first launch, Ravian may guide you through a brief setup:
+On first launch, Ravian guides you through a short setup:
 
-- Grant permissions needed to control windows, read or write files, and automate other applications.
-- Choose where Ravian should store generated documents and logs.
-- Optionally connect accounts such as email or calendars so Ravian can automate communications and scheduling.
+- Grant permissions to control windows, read/write files, and automate other applications.  
+- Choose where Ravian should store generated documents, logs, and cached data.  
+- Optionally connect apps such as **email**, **calendar**, and **cloud storage** so Ravian can automate workflows end to end.
 
 !!! note
     Ravian only uses the access it needs to complete your tasks and keeps processing on your device.
@@ -61,10 +101,15 @@ On first launch, Ravian may guide you through a brief setup:
 
 To confirm that everything is working:
 
-1. Open Ravian and make sure the home screen loads without errors.
-2. In the input box, ask: `Summarize what Ravian AI is in three bullet points.`
-3. Check that Ravian responds quickly and displays the answer in the main panel.
+1. Open Ravian and check that the home screen loads without errors.  
+2. In the input box, type:  
 
-If you see connection errors, permission issues, or repeated failures to execute tasks, visit the **FAQ** section for troubleshooting steps or contact your administrator.
+    ```
+    Summarize what Ravian AI is in three bullet points.
+    ```
 
-Next, follow **Quick Start** to run your first autonomous workflow, or try **First Task** for a more guided example.
+3. Verify that Ravian responds quickly with a meaningful answer.
+
+If you encounter errors (connection, permissions, repeated failures), see the FAQ page or contact your administrator.
+
+Next, continue to Your First Workflow to see Ravian plan and execute a complete task on your device.
