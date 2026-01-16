@@ -79,7 +79,12 @@ nav:
       - Research in Chat Mode: modes/chat-capabilities/research.md
       - Productivity & Email: modes/chat-capabilities/productivity.md
       - Web Automation in Chat: modes/chat-capabilities/web-automation.md
-      - Connected Apps: modes/chat-capabilities/integrations.md
+      - Chat Integrations:
+          - Overview: modes/chat-capabilities/chat-integrations.md
+          - Gmail: modes/chat-capabilities/apps/gmail.md
+          - Google Drive: modes/chat-capabilities/apps/google-drive.md
+          - Notion: modes/chat-capabilities/apps/notion.md
+          # later: Calendar, GitHub, ...
 
   - Task Mode:
       - Overview: modes/task-mode.md
