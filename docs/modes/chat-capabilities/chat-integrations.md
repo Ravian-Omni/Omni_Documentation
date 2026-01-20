@@ -23,6 +23,9 @@ Each app has a dedicated page with example prompts and best practices:
 - [:simple-gmail:{ .lg } **Gmail**](apps/gmail.md)  
   Automate follow‑ups, outbound sequences, and status updates from Chat Mode.
 
+- [:simple-googlesheets:{ .lg } **Google Sheets**](apps/google-sheets.md)  
+  Schedule or adjust meetings without leaving the conversation.
+
 - [:simple-googlecalendar:{ .lg } **Google Calendar**](apps/google-calendar.md)  
   Schedule or adjust meetings without leaving the conversation.
 

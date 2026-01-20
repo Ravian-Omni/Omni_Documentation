@@ -23,10 +23,10 @@ You only provide the goal and a few constraints; Ravian handles the rest.
 1. Open Ravian and ensure you are on the main screen.  
 2. In the input box, describe your goal, for example:
 
-    ```text title="Prompt"
-    Research the current state of AI agents for enterprise automation and create a 10-slide presentation for a business audience.
-    Focus on India and use examples from the last 12 months.
-    ```
+            ```text title="Prompt"
+            Research the current state of AI agents for enterprise automation and create a 10-slide presentation for a business audience.
+            Focus on India and use examples from the last 12 months.
+            ```
 
 !!! tip
     Think in terms of the final asset you want (report, deck, app), not the individual steps.
