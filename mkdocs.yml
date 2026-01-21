@@ -83,6 +83,7 @@ nav:
           - Overview: modes/chat-capabilities/chat-integrations.md
           - Gmail: modes/chat-capabilities/apps/gmail.md
           - Google Sheets: modes/chat-capabilities/apps/google-sheets.md
+          - Google Calendar: modes/chat-capabilities/apps/google-calendar.md
           - Google Drive: modes/chat-capabilities/apps/google-drive.md
           - Notion: modes/chat-capabilities/apps/notion.md
           # later: Calendar, GitHub, ...
