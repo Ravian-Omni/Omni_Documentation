@@ -1,5 +1,6 @@
 # Ravian AI
 
+
 Ravian AI is a **device-native autonomous AI agent** powered by Large Action Models (LAMs). It thinks, plans, and executes directly on your machine, transforming high-level goals into real actions across applications, files, and the web.
 
 Instead of switching between tools, tabs, and workflows, you describe the outcome once. Ravian designs the workflow, executes each step autonomously, validates results, and delivers the final output.
