@@ -47,7 +47,6 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
-  - pymdownx.highlight
   - pymdownx.inlinehilite
   - pymdownx.tabbed:
       alternate_style: true
@@ -55,8 +54,6 @@ markdown_extensions:
   - toc:
       permalink: true
   - md_in_html
-
-  # REQUIRED for Material icons & social footer
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
