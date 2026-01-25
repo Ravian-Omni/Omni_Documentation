@@ -24,12 +24,15 @@ Each app has a dedicated page with example prompts and best practices:
   Automate follow‑ups, outbound sequences, and status updates from Chat Mode.
 
 - [:simple-googlesheets:{ .lg } **Google Sheets**](apps/google-sheets.md)  
-  Schedule or adjust meetings without leaving the conversation.
+  create, read, update, and analyze spreadsheets directly from Chat Mode.
 
 - [:simple-googlecalendar:{ .lg } **Google Calendar**](apps/google-calendar.md)  
   Schedule or adjust meetings without leaving the conversation.
 
 - [:simple-googledrive:{ .lg } **Google Drive**](apps/google-drive.md)  
+  Open, summarize, and update files as part of chat workflows.
+
+- [:simple-googlephotos:{ .lg } **Google Photos**](apps/google-photos.md)  
   Open, summarize, and update files as part of chat workflows.
 
 - [:simple-notion:{ .lg } **Notion**](apps/notion.md)  
