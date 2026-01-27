@@ -86,6 +86,9 @@ nav:
           - Google Calendar: modes/chat-capabilities/apps/google-calendar.md
           - Google Drive: modes/chat-capabilities/apps/google-drive.md
           - Google Photos: modes/chat-capabilities/apps/google-photos.md
+          - Google Meet: modes/chat-capabilities/apps/google-meet.md
+          - Github: modes/chat-capabilities/apps/github.md
+          - Salesforce: modes/chat-capabilities/apps/salesforce.md
           - Notion: modes/chat-capabilities/apps/notion.md
           # later: Calendar, GitHub, ...
 

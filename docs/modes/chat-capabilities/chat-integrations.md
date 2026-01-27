@@ -26,6 +26,9 @@ Each app has a dedicated page with example prompts and best practices:
 - [:simple-googlesheets:{ .lg } **Google Sheets**](apps/google-sheets.md)  
   create, read, update, and analyze spreadsheets directly from Chat Mode.
 
+- [:simple-googlemeet:{ .lg } **Google Meet**](apps/google-meet.md)  
+  create, manage, and analyze video meetings directly from chat.
+
 - [:simple-googlecalendar:{ .lg } **Google Calendar**](apps/google-calendar.md)  
   Schedule or adjust meetings without leaving the conversation.
 
@@ -34,6 +37,12 @@ Each app has a dedicated page with example prompts and best practices:
 
 - [:simple-googlephotos:{ .lg } **Google Photos**](apps/google-photos.md)  
   Open, summarize, and update files as part of chat workflows.
+
+- [:simple-github:{ .lg } **Github**](apps/github.md)  
+  Open, summarize, and update files as part of chat workflows.
+
+- [:fontawesome-brands-salesforce:{ .lg } **Salesforce**](apps/salesforce.md)  
+  create, update, and inspect CRM records directly from chat.
 
 - [:simple-notion:{ .lg } **Notion**](apps/notion.md)  
   Turn research and decisions into structured pages.
