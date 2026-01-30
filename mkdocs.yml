@@ -82,14 +82,47 @@ nav:
       - Chat Integrations:
           - Overview: modes/chat-capabilities/chat-integrations.md
           - Gmail: modes/chat-capabilities/apps/gmail.md
+          - Outlook: modes/chat-capabilities/apps/outlook.md
           - Google Sheets: modes/chat-capabilities/apps/google-sheets.md
+          - Google Docs: modes/chat-capabilities/apps/google-docs.md
           - Google Calendar: modes/chat-capabilities/apps/google-calendar.md
           - Google Drive: modes/chat-capabilities/apps/google-drive.md
+          - OneDrive: modes/chat-capabilities/apps/onedrive.md
           - Google Photos: modes/chat-capabilities/apps/google-photos.md
           - Google Meet: modes/chat-capabilities/apps/google-meet.md
+          - Zoom: modes/chat-capabilities/apps/zoom.md
+          - Webex: modes/chat-capabilities/apps/webex.md
+          - Microsoft Teams: modes/chat-capabilities/apps/microsoft-teams.md
           - Github: modes/chat-capabilities/apps/github.md
           - Salesforce: modes/chat-capabilities/apps/salesforce.md
+          - Slack: modes/chat-capabilities/apps/slack.md
+          - Zoho: modes/chat-capabilities/apps/zoho.md
           - Notion: modes/chat-capabilities/apps/notion.md
+          - HubSpot: modes/chat-capabilities/apps/hubspot.md
+          - Supabase: modes/chat-capabilities/apps/supabase.md
+          - Shopify: modes/chat-capabilities/apps/shopify.md
+          - Apollo: modes/chat-capabilities/apps/apollo.md
+          - Instantly: modes/chat-capabilities/apps/instantly.md
+          - LinkedIn: modes/chat-capabilities/apps/linkedin.md
+          - Twitter: modes/chat-capabilities/apps/twitter.md
+          - YouTube: modes/chat-capabilities/apps/youtube.md
+          - Discord: modes/chat-capabilities/apps/discord.md
+          - Reddit: modes/chat-capabilities/apps/reddit.md
+          - Instagram: modes/chat-capabilities/apps/instagram.md
+          - Facebook: modes/chat-capabilities/apps/facebook.md
+          - Whatsapp: modes/chat-capabilities/apps/whatsapp.md
+          - Telegram: modes/chat-capabilities/apps/telegram.md
+          - Airtable: modes/chat-capabilities/apps/airtable.md
+          - Excel: modes/chat-capabilities/apps/excel.md
+          - Dropbox: modes/chat-capabilities/apps/dropbox.md
+          - Figma: modes/chat-capabilities/apps/figma.md
+          - Canva: modes/chat-capabilities/apps/canva.md
+          - Kaggle: modes/chat-capabilities/apps/kaggle.md
+          - Semrush: modes/chat-capabilities/apps/semrush.md
+          - Zendesk: modes/chat-capabilities/apps/zendesk.md
+          - Workday: modes/chat-capabilities/apps/workday.md
+          - Vercel: modes/chat-capabilities/apps/vercel.md
+          - TripAdvisor: modes/chat-capabilities/apps/tripadvisor.md
           # later: Calendar, GitHub, ...
 
   - Task Mode:
